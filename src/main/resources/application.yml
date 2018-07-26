@@ -1,0 +1,11 @@
+zuul:
+  prefix: /api
+  routes:
+    employee-tree:
+      serviceId: employee-tree
+      path: /employee-tree/**
+    mentor-tree:
+      serviceId: mentor-tree
+      path: /mentor-tree/**
+
+
